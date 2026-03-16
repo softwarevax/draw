@@ -4,6 +4,16 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="EPS2Kqn-uvjrSkzwAdTx-19" edge="1" parent="1" source="EPS2Kqn-uvjrSkzwAdTx-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="353" y="164" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EPS2Kqn-uvjrSkzwAdTx-20" connectable="0" parent="EPS2Kqn-uvjrSkzwAdTx-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;&lt;div&gt;初步区域判定&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0973" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="EPS2Kqn-uvjrSkzwAdTx-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" value="&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot;&gt;&lt;span style=&quot;mso-spacerun:&#39;yes&#39;;font-family:宋体;mso-bidi-font-family:&#39;Times New Roman&#39;;&lt;br/&gt;font-size:12.0000pt;mso-font-kerning:0.0000pt;&quot;&gt;核心控制引擎&lt;/span&gt;&lt;span style=&quot;mso-spacerun:&#39;yes&#39;;font-family:宋体;mso-bidi-font-family:&#39;Times New Roman&#39;;&lt;br/&gt;font-size:12.0000pt;mso-font-kerning:0.0000pt;&quot;&gt;模块&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="200" width="200" x="40" y="64" as="geometry" />
         </mxCell>
@@ -16,8 +26,16 @@
         <mxCell id="EPS2Kqn-uvjrSkzwAdTx-4" parent="EPS2Kqn-uvjrSkzwAdTx-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot;&gt;&lt;span style=&quot;mso-spacerun:&#39;yes&#39;;font-family:宋体;mso-ascii-font-family:Calibri;&lt;br/&gt;mso-hansi-font-family:Calibri;mso-bidi-font-family:&#39;Times New Roman&#39;;font-size:10.5000pt;&lt;br/&gt;mso-font-kerning:1.0000pt;&quot;&gt;生成基础指令&lt;/span&gt;&lt;span style=&quot;mso-spacerun:&#39;yes&#39;;font-family:宋体;mso-ascii-font-family:Calibri;&lt;br/&gt;mso-hansi-font-family:Calibri;mso-bidi-font-family:&#39;Times New Roman&#39;;font-size:10.5000pt;&lt;br/&gt;mso-font-kerning:1.0000pt;&quot;&gt;&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="40" width="160" x="20" y="140" as="geometry" />
         </mxCell>
+        <mxCell id="EPS2Kqn-uvjrSkzwAdTx-22" edge="1" parent="1" source="EPS2Kqn-uvjrSkzwAdTx-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="EPS2Kqn-uvjrSkzwAdTx-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EPS2Kqn-uvjrSkzwAdTx-23" connectable="0" parent="EPS2Kqn-uvjrSkzwAdTx-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;稳定区域结果&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1881" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="EPS2Kqn-uvjrSkzwAdTx-5" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;mso-spacerun:&#39;yes&#39;;font-family:宋体;mso-bidi-font-family:&#39;Times New Roman&#39;;&lt;br/&gt;font-size:12.0000pt;mso-font-kerning:0.0000pt;&quot;&gt;边界状态滞回处理&lt;/span&gt;&lt;span style=&quot;mso-spacerun:&#39;yes&#39;;font-family:宋体;mso-bidi-font-family:&#39;Times New Roman&#39;;&lt;br/&gt;font-size:12.0000pt;mso-font-kerning:0.0000pt;&quot;&gt;模块&lt;/span&gt;&lt;span style=&quot;mso-spacerun:&#39;yes&#39;;font-family:Calibri;mso-fareast-font-family:宋体;&lt;br/&gt;mso-bidi-font-family:&#39;Times New Roman&#39;;font-size:10.5000pt;mso-font-kerning:1.0000pt;&quot;&gt;&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="200" width="200" x="298" y="64" as="geometry" />
+          <mxGeometry height="200" width="200" x="359" y="67" as="geometry" />
         </mxCell>
         <mxCell id="EPS2Kqn-uvjrSkzwAdTx-6" parent="EPS2Kqn-uvjrSkzwAdTx-5" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot;&gt;&lt;span style=&quot;mso-spacerun:&#39;yes&#39;;font-family:宋体;mso-ascii-font-family:Calibri;&lt;br/&gt;mso-hansi-font-family:Calibri;mso-bidi-font-family:&#39;Times New Roman&#39;;font-size:10.5000pt;&lt;br/&gt;mso-font-kerning:1.0000pt;&quot;&gt;容差带判断&lt;/span&gt;&lt;span style=&quot;mso-spacerun:&#39;yes&#39;;font-family:宋体;mso-ascii-font-family:Calibri;&lt;br/&gt;mso-hansi-font-family:Calibri;mso-bidi-font-family:&#39;Times New Roman&#39;;font-size:10.5000pt;&lt;br/&gt;mso-font-kerning:1.0000pt;&quot;&gt;&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="40" width="160" x="20" y="40" as="geometry" />
@@ -28,8 +46,16 @@
         <mxCell id="EPS2Kqn-uvjrSkzwAdTx-8" parent="EPS2Kqn-uvjrSkzwAdTx-5" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot;&gt;&lt;span style=&quot;mso-spacerun:&#39;yes&#39;;font-family:宋体;mso-ascii-font-family:Calibri;&lt;br/&gt;mso-hansi-font-family:Calibri;mso-bidi-font-family:&#39;Times New Roman&#39;;font-size:10.5000pt;&lt;br/&gt;mso-font-kerning:1.0000pt;&quot;&gt;稳定性判决&lt;/span&gt;&lt;span style=&quot;mso-spacerun:&#39;yes&#39;;font-family:宋体;mso-ascii-font-family:Calibri;&lt;br/&gt;mso-hansi-font-family:Calibri;mso-bidi-font-family:&#39;Times New Roman&#39;;font-size:10.5000pt;&lt;br/&gt;mso-font-kerning:1.0000pt;&quot;&gt;&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="40" width="160" x="20" y="140" as="geometry" />
         </mxCell>
+        <mxCell id="EPS2Kqn-uvjrSkzwAdTx-24" edge="1" parent="1" source="EPS2Kqn-uvjrSkzwAdTx-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="EPS2Kqn-uvjrSkzwAdTx-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EPS2Kqn-uvjrSkzwAdTx-25" connectable="0" parent="EPS2Kqn-uvjrSkzwAdTx-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;优化开度指令&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1429" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="EPS2Kqn-uvjrSkzwAdTx-9" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;mso-spacerun:&#39;yes&#39;;font-family:宋体;mso-bidi-font-family:&#39;Times New Roman&#39;;&lt;br/&gt;font-size:12.0000pt;mso-font-kerning:0.0000pt;&quot;&gt;阀门角度自适应优化模块&lt;/span&gt;&lt;span style=&quot;mso-spacerun:&#39;yes&#39;;font-family:Calibri;mso-fareast-font-family:宋体;&lt;br/&gt;mso-bidi-font-family:&#39;Times New Roman&#39;;font-size:10.5000pt;mso-font-kerning:1.0000pt;&quot;&gt;&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="200" width="200" x="549" y="64" as="geometry" />
+          <mxGeometry height="200" width="200" x="660" y="67" as="geometry" />
         </mxCell>
         <mxCell id="EPS2Kqn-uvjrSkzwAdTx-10" parent="EPS2Kqn-uvjrSkzwAdTx-9" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot;&gt;&lt;span style=&quot;mso-spacerun:&#39;yes&#39;;font-family:宋体;mso-ascii-font-family:Calibri;&lt;br/&gt;mso-hansi-font-family:Calibri;mso-bidi-font-family:&#39;Times New Roman&#39;;font-size:10.5000pt;&lt;br/&gt;mso-font-kerning:1.0000pt;&quot;&gt;查询知识库&lt;/span&gt;&lt;span style=&quot;mso-spacerun:&#39;yes&#39;;font-family:宋体;mso-ascii-font-family:Calibri;&lt;br/&gt;mso-hansi-font-family:Calibri;mso-bidi-font-family:&#39;Times New Roman&#39;;font-size:10.5000pt;&lt;br/&gt;mso-font-kerning:1.0000pt;&quot;&gt;&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="40" width="160" x="20" y="40" as="geometry" />
@@ -41,7 +67,7 @@
           <mxGeometry height="40" width="160" x="20" y="140" as="geometry" />
         </mxCell>
         <mxCell id="EPS2Kqn-uvjrSkzwAdTx-13" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" value="&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot;&gt;&lt;span style=&quot;mso-spacerun:&#39;yes&#39;;font-family:宋体;mso-bidi-font-family:&#39;Times New Roman&#39;;&lt;br/&gt;font-size:12.0000pt;mso-font-kerning:0.0000pt;&quot;&gt;预测控制模块&lt;/span&gt;&lt;span style=&quot;mso-spacerun:&#39;yes&#39;;font-family:Calibri;mso-fareast-font-family:宋体;&lt;br/&gt;mso-bidi-font-family:&#39;Times New Roman&#39;;font-size:10.5000pt;mso-font-kerning:1.0000pt;&quot;&gt;&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="200" width="200" x="801" y="64" as="geometry" />
+          <mxGeometry height="200" width="200" x="959" y="67" as="geometry" />
         </mxCell>
         <mxCell id="EPS2Kqn-uvjrSkzwAdTx-14" parent="EPS2Kqn-uvjrSkzwAdTx-13" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot;&gt;&lt;span style=&quot;mso-spacerun:&#39;yes&#39;;font-family:宋体;mso-ascii-font-family:Calibri;&lt;br/&gt;mso-hansi-font-family:Calibri;mso-bidi-font-family:&#39;Times New Roman&#39;;font-size:10.5000pt;&lt;br/&gt;mso-font-kerning:1.0000pt;&quot;&gt;预报数据预判&lt;/span&gt;&lt;span style=&quot;mso-spacerun:&#39;yes&#39;;font-family:宋体;mso-ascii-font-family:Calibri;&lt;br/&gt;mso-hansi-font-family:Calibri;mso-bidi-font-family:&#39;Times New Roman&#39;;font-size:10.5000pt;&lt;br/&gt;mso-font-kerning:1.0000pt;&quot;&gt;&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="40" width="160" x="20" y="40" as="geometry" />
