@@ -1013,70 +1013,10 @@
     </mxGraphModel>
   </diagram>
   <diagram name="5. 模块功能图 (原image2)" id="CFQkaQUrzLk67Twgbh2h">
-    <mxGraphModel dx="1426" dy="795" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=2;fontSize=16;fontStyle=1;align=center;verticalAlign=top;" value="" vertex="1">
-          <mxGeometry height="260" width="1040" x="80" y="60" as="geometry" />
-        </mxCell>
-        <mxCell id="3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1;" value="核心控制引擎" vertex="1">
-          <mxGeometry height="100" width="180" x="100" y="100" as="geometry" />
-        </mxCell>
-        <mxCell id="4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=1;" value="边界状态&lt;br&gt;滞回处理" vertex="1">
-          <mxGeometry height="100" width="180" x="340" y="100" as="geometry" />
-        </mxCell>
-        <mxCell id="5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;" value="阀门角度&lt;br&gt;自适应优化" vertex="1">
-          <mxGeometry height="100" width="180" x="580" y="100" as="geometry" />
-        </mxCell>
-        <mxCell id="6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;fontStyle=1;" value="预测控制" vertex="1">
-          <mxGeometry height="100" width="180" x="920" y="100" as="geometry" />
-        </mxCell>
-        <mxCell id="7" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="传感器数据" vertex="1">
-          <mxGeometry height="30" width="80" x="151" y="67" as="geometry" />
-        </mxCell>
-        <mxCell id="8" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4" value="区域判定">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="9" edge="1" parent="1" source="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5" value="稳定区域">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="10" edge="1" parent="1" source="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="11" value="">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EcSmWtAMBSAUfTZPwOlj-19" connectable="0" parent="10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="优化开度" vertex="1">
-          <mxGeometry relative="1" x="-0.6588" y="-2" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="11" parent="1" style="shape=or;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="执行器" vertex="1">
-          <mxGeometry height="60" width="80" x="810" y="240" as="geometry" />
-        </mxCell>
-        <mxCell id="12" parent="1" style="shape=cloud;whiteSpace=wrap;html=1;fillColor=#f5f5f5;" value="气象预报" vertex="1">
-          <mxGeometry height="60" width="80" x="724" y="240" as="geometry" />
-        </mxCell>
-        <mxCell id="13" edge="1" parent="1" source="6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="11" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="EcSmWtAMBSAUfTZPwOlj-17" connectable="0" parent="13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="预调节" vertex="1">
-          <mxGeometry relative="1" x="-0.5474" y="3" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="14" edge="1" parent="1" source="11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="5" value="反馈学习">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="15" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=12;" value="小时级预测" vertex="1">
-          <mxGeometry height="30" width="80" x="964" y="70" as="geometry" />
-        </mxCell>
-        <mxCell id="16" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=12;" value="分钟级滞回" vertex="1">
-          <mxGeometry height="30" width="80" x="384" y="70" as="geometry" />
-        </mxCell>
-        <mxCell id="17" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=12;" value="秒级自适应" vertex="1">
-          <mxGeometry height="30" width="80" x="621" y="70" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
