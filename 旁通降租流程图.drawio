@@ -1017,6 +1017,129 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="dO6b1WmCWvpkukkQGJqj-29" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="输入层" vertex="1">
+          <mxGeometry height="110" width="580" x="240" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dO6b1WmCWvpkukkQGJqj-25" parent="dO6b1WmCWvpkukkQGJqj-29" style="rounded=0;whiteSpace=wrap;html=1;" value="温湿度传感器" vertex="1">
+          <mxGeometry height="45" width="120" x="20" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dO6b1WmCWvpkukkQGJqj-26" parent="dO6b1WmCWvpkukkQGJqj-29" style="rounded=0;whiteSpace=wrap;html=1;" value="风量/压差传感器" vertex="1">
+          <mxGeometry height="45" width="120" x="170" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dO6b1WmCWvpkukkQGJqj-27" parent="dO6b1WmCWvpkukkQGJqj-29" style="rounded=0;whiteSpace=wrap;html=1;" value="多点风速传感器" vertex="1">
+          <mxGeometry height="45" width="110" x="320" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dO6b1WmCWvpkukkQGJqj-28" parent="dO6b1WmCWvpkukkQGJqj-29" style="rounded=0;whiteSpace=wrap;html=1;" value="气象预报API" vertex="1">
+          <mxGeometry height="45" width="110" x="450" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dO6b1WmCWvpkukkQGJqj-30" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="智能处理层" vertex="1">
+          <mxGeometry height="220" width="580" x="240" y="172" as="geometry" />
+        </mxCell>
+        <mxCell id="dO6b1WmCWvpkukkQGJqj-45" edge="1" parent="dO6b1WmCWvpkukkQGJqj-30" source="dO6b1WmCWvpkukkQGJqj-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dO6b1WmCWvpkukkQGJqj-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dO6b1WmCWvpkukkQGJqj-32" parent="dO6b1WmCWvpkukkQGJqj-30" style="rounded=0;whiteSpace=wrap;html=1;" value="核心引擎模块" vertex="1">
+          <mxGeometry height="45" width="140" x="20" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dO6b1WmCWvpkukkQGJqj-33" parent="dO6b1WmCWvpkukkQGJqj-30" style="rounded=0;whiteSpace=wrap;html=1;" value="前瞻协调预测控制模块" vertex="1">
+          <mxGeometry height="45" width="130" x="420" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dO6b1WmCWvpkukkQGJqj-46" edge="1" parent="dO6b1WmCWvpkukkQGJqj-30" source="dO6b1WmCWvpkukkQGJqj-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="dO6b1WmCWvpkukkQGJqj-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dO6b1WmCWvpkukkQGJqj-41" parent="dO6b1WmCWvpkukkQGJqj-30" style="rounded=0;whiteSpace=wrap;html=1;" value="边界状态滞回处理模块" vertex="1">
+          <mxGeometry height="45" width="140" x="20" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="dO6b1WmCWvpkukkQGJqj-42" parent="dO6b1WmCWvpkukkQGJqj-30" style="rounded=0;whiteSpace=wrap;html=1;" value="阀门角度自适应优化模块" vertex="1">
+          <mxGeometry height="53" width="140" x="230" y="143" as="geometry" />
+        </mxCell>
+        <mxCell id="dO6b1WmCWvpkukkQGJqj-44" edge="1" parent="1" source="dO6b1WmCWvpkukkQGJqj-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.429;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="dO6b1WmCWvpkukkQGJqj-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dO6b1WmCWvpkukkQGJqj-48" edge="1" parent="1" source="dO6b1WmCWvpkukkQGJqj-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="dO6b1WmCWvpkukkQGJqj-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dO6b1WmCWvpkukkQGJqj-50" edge="1" parent="1" source="dO6b1WmCWvpkukkQGJqj-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" target="dO6b1WmCWvpkukkQGJqj-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dO6b1WmCWvpkukkQGJqj-65" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;指令融合层" vertex="1">
+          <mxGeometry height="120" width="330" x="390" y="419" as="geometry" />
+        </mxCell>
+        <mxCell id="dO6b1WmCWvpkukkQGJqj-58" parent="dO6b1WmCWvpkukkQGJqj-65" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;指令融合与仲裁&lt;/div&gt;&lt;div&gt;生成复合控制指令&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="280" x="20" y="41" as="geometry" />
+        </mxCell>
+        <mxCell id="dO6b1WmCWvpkukkQGJqj-59" edge="1" parent="1" source="dO6b1WmCWvpkukkQGJqj-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="dO6b1WmCWvpkukkQGJqj-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dO6b1WmCWvpkukkQGJqj-60" connectable="0" parent="dO6b1WmCWvpkukkQGJqj-59" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="预调节/平滑指令" vertex="1">
+          <mxGeometry relative="1" x="-0.5793" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dO6b1WmCWvpkukkQGJqj-63" edge="1" parent="1" source="dO6b1WmCWvpkukkQGJqj-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.461;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="dO6b1WmCWvpkukkQGJqj-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dO6b1WmCWvpkukkQGJqj-64" connectable="0" parent="dO6b1WmCWvpkukkQGJqj-63" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="优化开度指令" vertex="1">
+          <mxGeometry relative="1" x="-0.0788" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dO6b1WmCWvpkukkQGJqj-71" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="学习优化层" vertex="1">
+          <mxGeometry height="83" width="330" x="390" y="711" as="geometry" />
+        </mxCell>
+        <mxCell id="dO6b1WmCWvpkukkQGJqj-72" parent="dO6b1WmCWvpkukkQGJqj-71" style="rounded=0;whiteSpace=wrap;html=1;" value="系统性能监控与知识库进化" vertex="1">
+          <mxGeometry height="46" width="240" x="46" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dO6b1WmCWvpkukkQGJqj-73" edge="1" parent="1" source="dO6b1WmCWvpkukkQGJqj-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="473" y="739" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dO6b1WmCWvpkukkQGJqj-76" connectable="0" parent="dO6b1WmCWvpkukkQGJqj-73" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="执行状态" vertex="1">
+          <mxGeometry relative="1" x="-0.6364" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dO6b1WmCWvpkukkQGJqj-66" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="输出层" vertex="1">
+          <mxGeometry height="113" width="330" x="390" y="566" as="geometry" />
+        </mxCell>
+        <mxCell id="dO6b1WmCWvpkukkQGJqj-67" parent="dO6b1WmCWvpkukkQGJqj-66" style="rounded=0;whiteSpace=wrap;html=1;" value="次级调节机构&lt;div&gt;冷水阀/热水阀&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="dO6b1WmCWvpkukkQGJqj-68" parent="dO6b1WmCWvpkukkQGJqj-66" style="rounded=0;whiteSpace=wrap;html=1;" value="阀门执行机构&lt;div&gt;旁通主阀门&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="211" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dO6b1WmCWvpkukkQGJqj-69" edge="1" parent="1" source="dO6b1WmCWvpkukkQGJqj-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.358;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" target="dO6b1WmCWvpkukkQGJqj-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dO6b1WmCWvpkukkQGJqj-70" edge="1" parent="1" source="dO6b1WmCWvpkukkQGJqj-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.367;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" target="dO6b1WmCWvpkukkQGJqj-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dO6b1WmCWvpkukkQGJqj-74" edge="1" parent="1" source="dO6b1WmCWvpkukkQGJqj-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.842;entryY=-0.087;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" target="dO6b1WmCWvpkukkQGJqj-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dO6b1WmCWvpkukkQGJqj-75" connectable="0" parent="dO6b1WmCWvpkukkQGJqj-74" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="执行状态" vertex="1">
+          <mxGeometry relative="1" x="-0.4059" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dO6b1WmCWvpkukkQGJqj-77" edge="1" parent="1" source="dO6b1WmCWvpkukkQGJqj-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" target="dO6b1WmCWvpkukkQGJqj-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="436" y="772" />
+              <mxPoint x="330" y="772" />
+              <mxPoint x="330" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dO6b1WmCWvpkukkQGJqj-78" connectable="0" parent="dO6b1WmCWvpkukkQGJqj-77" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="性能数据/更新参数" vertex="1">
+          <mxGeometry relative="1" x="-0.0661" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dO6b1WmCWvpkukkQGJqj-79" edge="1" parent="1" source="dO6b1WmCWvpkukkQGJqj-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.438;entryY=0.089;entryDx=0;entryDy=0;entryPerimeter=0;" target="dO6b1WmCWvpkukkQGJqj-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
